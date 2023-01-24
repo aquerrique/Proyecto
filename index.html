@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+        <title>Prueba de Html y css</title>
+    </head>
+
+    <body>
+        <!--Contenedor-->
+        <section id="contenedor">
+            <!--Cabecera-->
+            <header id="cabecera_index">
+
+                <div id="caja_foto">
+                    <img src="imagen/foto.jpg" alt="Imagen de Perfil">
+                </div>
+
+                <div id="caja_titulo">
+                      <h1>DAN GRIFFIN</h1>
+
+                </div>
+
+                <div id="caja_datos">
+                
+                    <h3>Diseñador Grafico, 30 Años</h3>
+                      
+              
+                </div>
+
+                <nav id="botonera_principal">
+                   
+                        <button onclick='cambiar_texto("Contacto","Tel      : 0868 701 5986","Email      : dangriffing@gmail.com","Dirección: 9361 Dane St")'>Contacto</button>
+                       <button onclick='cambiar_texto("Software","Corel Draw","Adobe Illustrador","XnView")'>Software</button>
+                       <button onclick='cambiar_texto("Idiomas","Español","Ingles","Portugues")'>Idiomas</button>
+                       <button onclick='refrescar_pagina()'>Restablecer</button>
+                        
+                  
+                </nav>
+            </header>
+            
+            <section id="contenido_index">
+
+                <div id="cuadro_izq">
+                    
+                    <div id="caja_Sobre_Mi">
+                        <h2>Sobre Mi</h2>
+                        <p> El Lorem Ipsum fue concebido como un texto de relleno, 
+                            formateado de una cierta manera para permitir la presentación 
+                            de elementos gráficos en documentos, sin necesidad de una copia formal.
+                            El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la
+                            forma del contenido antes de que el contenido se haya creado, dando al diseño 
+                            y al proceso de producción más libertad.
+                        </p> 
+                    </div>
+
+                    <div id="caja_Educacion">
+                       <h2>Educación</h2>
+                           <ul>
+                             <li><a>Escuela Primaria</a></li>
+                             <li><a>Escuela Secundaria</a></li>  
+                             <li><a>Estudios Universitarios</a></li>
+                         
+                           </ul> 
+                    </div>
+                </div>
+                
+                <div id="cuadro_der">
+
+                    <h2 id="titulo_Exp">Experiencia</h2>
+
+                        <div id="experiencia">
+                            <h3 id="subtitulo">Bank of America</h3>
+
+                            <ul>
+                                <li><a id="texto1"> El Lorem Ipsum fue concebido como un texto de relleno, 
+                                formateado de una cierta manera para permitir la presentación 
+                                de elementos gráficos en documentos, sin necesidad de una copia formal.</a></li>
+                                <li><a id="texto2"> El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la
+                                forma del contenido antes de que el contenido se haya creado, dando al diseño 
+                                y al proceso de producción más libertad.</a></li>
+                              
+                 <li><a id="texto3"> El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la
+                                forma del contenido antes de que el contenido se haya creado, dando al diseño 
+                                y al proceso de producción más libertad.</a></li> 
+                            </ul>
+                        </div>
+
+                        <div id="experiencia_1">
+                            <h3>Centro Educativo</h3>
+                            <ul>
+                                <li><a> El Lorem Ipsum fue concebido como un texto de relleno, 
+                                 formateado de una cierta manera para permitir la presentación 
+                                de elementos gráficos en documentos, sin necesidad de una copia formal.</a></li>
+                                <li><a> El uso de Lorem Ipsum permite a los diseñadores reunir los diseños y la
+                                forma del contenido antes de que el contenido se haya creado, dando al diseño 
+                                y al proceso de producción más libertad.</a></li>
+                            </ul> 
+                        </div>
+                </div>
+            </section>
+         </section> 
+         <script src="js/funciones.js"></script>
+    </body>
+</html>
+

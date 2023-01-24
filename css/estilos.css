@@ -1,0 +1,125 @@
+body{
+    background-color: coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor{
+    background-color: white;
+    width: 1024px; 
+    height: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabecera_index{
+    width: 1024px;
+    height: 250px;
+}
+
+#caja_foto, img {
+   
+    width:220px ;
+    height:220px ;
+    margin-left:25px;
+    padding: 8px;
+    float:left;
+}
+
+#caja_titulo{
+   background-color: white;
+    width:610px ;
+    height:100px ;
+    text-align: center;
+    font-size: 30px;
+    font:Arial;
+    color: darkslategrey;
+    float: right;
+}
+
+#caja_datos
+{
+    background-color:white;
+    width:610px ;
+    height:110px ;
+    float:right;
+}
+
+#caja_datos li,h3{
+    margin-left: 180px;
+}
+
+ #botonera_principal {
+	width: 330px;
+	height: 40px;
+    font-size: 10px;
+	float: right;
+}
+
+
+#botonera_principal button {
+	display: inline-block;
+	text-decoration: none;
+	color: #FFFFFF;
+	background-color:cadetblue;
+	padding: 5px;
+	border-radius: 8px;
+}
+
+
+#contenido_index{
+    background-color:rgb(9, 255, 0);
+    width: 1024px;
+    height: 550px;
+}
+
+#cuadro_izq{
+    background-color: darkslategrey;
+     color: white;
+    width: 414px;
+    height:  550px;
+    float: left;
+}
+
+#cuadro_izq h2{
+    margin-left: 20px;
+}
+
+#caja_Sobre_Mi{
+    width: 394px;
+    height:  340px;
+    margin:     10px;
+    float:left;
+}
+
+#caja_Sobre_Mi p{
+  margin-left: 25px;
+}
+
+#caja_Educacion{
+     width: 394px;
+    height:  170px;
+    margin: 10px;
+    float:left;
+ }
+
+
+#cuadro_der{
+background-color:whitesmoke;
+width: 610px;
+height: 550px;
+color:black;
+float: right;
+}
+
+#experiencia{
+width: 590px;
+height: 250px;  
+margin: 10px;
+}
+
+#experiencia_1{
+    width: 590px;
+    height:200px;
+    margin:10px;
+}
+
